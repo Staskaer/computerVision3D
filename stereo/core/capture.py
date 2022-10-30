@@ -1,4 +1,4 @@
-from typing import Tuple, Optional, Union
+from typing import Tuple, Union
 from os.path import exists
 from os import makedirs
 import cv2
