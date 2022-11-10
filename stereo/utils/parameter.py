@@ -40,7 +40,7 @@ class StereoParameters:
                                            self.extrinsics.P1,
                                            size,
                                            cv2.CV_32FC2)
-    
+
     def get_rectify_map_right(self):
         return cv2.initUndistortRectifyMap(self.intrinsics.M2,
                                            self.intrinsics.D2,
